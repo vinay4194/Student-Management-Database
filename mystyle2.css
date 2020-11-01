@@ -1,0 +1,115 @@
+*{
+   font-family: sans-serif;
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+
+}
+.header{
+   text-align: center;
+   margin:20px;
+   border:2px black solid;
+   padding:20px 0;
+   border-radius: 10px;
+   background-color: black;
+   color:white;
+   
+}
+.header h1{
+   margin-left:88px;
+}
+.header span{
+   font-size: 17px;
+   float: right;
+   margin-right:30px;
+   
+   border: 2px white solid;
+   padding:2px 5px;
+   border-radius: 6px;
+
+}
+.header a{
+   text-decoration: none;
+   color:white;
+   
+}
+.header span a:hover{
+   color:black;
+   background-color: white;
+
+}
+
+.container{
+margin-top: 50px;
+margin-left:20px;
+margin-right: 20px;
+display:flex;
+justify-content: center;
+
+
+}
+.left_container{
+   border:2px black solid; 
+   padding:30px ;
+   padding-left:35px;
+   flex-basis: 20%;
+   border-radius: 10px;
+   margin-right:20px;   
+
+}
+.left_container ul{
+   list-style: none;
+}
+.right_container{
+   
+   flex-basis: 60%;
+   border:2px black solid;
+   border-radius: 10px;
+   background-color:rgb(221, 245, 255);
+   padding:20px 10px;
+}
+
+.btn{
+   margin:10px 0;
+   padding:8px 2px;
+   width:150px;
+   font-weight: bold;
+   font-size: 14px;
+   border-radius: 10px;
+   border-color: black;
+}
+.btn:hover{
+   color:cornflowerblue;
+   background-color: black;
+
+}
+.ip{
+   padding:8px 10px;
+   border-radius: 10px;
+   margin:10px 10px;
+   font-size: 15px;
+   font-weight: bold;
+   background-color: honeydew;
+   border-color: black;
+
+}
+
+.info{
+   width:300px;
+   padding:5px;
+   margin-top:2px;
+}
+.add_details{
+   margin-top: 0px;
+}
+.add_details input{
+   margin-top: 3px;
+   height:25px;
+}
+.add_details .btn{
+   padding-bottom:20px;
+   margin-top: 20px;
+   width:100px;
+
+}
+
